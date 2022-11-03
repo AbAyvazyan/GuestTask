@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    width: 15vw;
+    height: 7vh;
+    border-radius: 7px;
+    cursor: pointer;
+    background: rgb(65, 151, 250);
+    font-size: 17px;
+}
+
+button:hover{
+    background: rgb(138, 187, 242);
+}
+
+.userMain{
+    margin-top: 3vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.userCard{
+    width: 20%;
+    height: 17vh;
+    border: 3px solid rgb(65, 151, 250);
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(138, 187, 242,0.4);
+    cursor: pointer;
+}
+
+.userAdding{
+    width: 50vw;
+    height: 33vh;
+    position: absolute;
+    left: 25vw;
+    top: 15vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: white;
+    text-align: center;
+}
+
+.addUserInput{
+    width: 80%;
+    height: 5vh;
+    margin: 3vh auto;
+    padding-left: 15px ;
+    font-size: 20px;
+}
+
+.singleMain{
+    margin-top: 3vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.boardSection{
+    width: 20%;
+    height: 17vh;
+    border: 3px solid rgb(65, 151, 250);
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(138, 187, 242,0.4);
+    cursor: pointer;
+}
+
+.keySection{
+    width: 30%;
+    min-height: 20vh;
+    border: 3px solid rgb(65, 151, 250);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.taskName{
+    width: 90%;
+    margin: 2vh auto;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 20px;
+    border: 3px solid rgb(65, 151, 250);
+    border-radius: 10px;
+    position: relative;
+}
+
+.buttonGroup{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.buttonGroup span{
+    margin-right: 5px;
+}
+
+.editButton{
+    color: lightseagreen;
+}
+
+.deleteButton{
+    color: red;
+}
